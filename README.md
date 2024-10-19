@@ -18,7 +18,9 @@
 - [FAQ](#faq)       
 - [Changelog](#changelogs)   
 
-# Introduction
+# 🧠 Introduction
+
+A case study for student record with User Management Authenticated by Generated QR Code
 
 ## Techstacks
 1. IDEA IntelliJ Ultimate or Community Edition (for Free)
@@ -67,7 +69,7 @@
 
 #### ⛓️ Program Requirements    
 
-##### 1. User Management
+##### 🚀 1. User Management
 
 * Two roles: Admin and Student.
 
@@ -84,35 +86,29 @@ Username: Student
 Password: Stud321@
 ```
 
-##### 2. Student Records
+##### 🚀 2. Student Records
 
-o Students have:
+* Students have:
+```
+o StudentNo
 
-§ StudentNo
+o Department
 
-§ Department
+o Degree
 
-§ Degree
+o Name
+```
+##### 3. Encapsulation:
 
-§ Name
+* Ensure all fields are private and provide public getter and setter methods for accessing and modifying them.
 
-3. Encapsulation:
+##### 🚀 4. All student attributes are private.
 
-o Ensure all fields are private and provide public getter and setter methods for accessing and modifying them.
+##### 🚀 5. Access to student data is through getter and setter methods.
 
-4. All student attributes are private.
+##### 🚀 6. Credentials are accessed through authentication methods.
 
-5. Access to student data is through getter and setter methods.
-
-6. Credentials are accessed through authentication methods.
-
-7. Student Records will be inputted and manage by the Administrator Account
-
-* 🚀 Coming Soon
-
-* 🚀 Coming Soon
-
-
+##### 🚀 7. Student Records will be inputted and manage by the Administrator Account
 
 
 #### 💻 Code Project Structure using [Maven](https://www.geeksforgeeks.org/what-is-maven)
