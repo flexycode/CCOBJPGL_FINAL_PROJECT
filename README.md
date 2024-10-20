@@ -201,6 +201,86 @@ ArtificialLedger.java
 ...  
 ```
 
+# 💻 To run the application
+
+1. Set up a new Maven project in IntelliJ IDEA.
+2. Make sure the files are into the appropriate package structure.
+3. Make sure all dependencies are resolved.
+4. Run the Main.java class.
+
+### 💻 The system provides the following features:
+
+* User authentication with two roles: Admin and Student.
+* QR code generation for login credentials.
+* Admin can add and view student records.
+* Students can view their own information.
+
+### 💻 To set up this project in IntelliJ IDEA:
+
+1. Open IntelliJ IDEA and select "Create New Project".
+2. Choose "Maven" as the project type.
+3. Select your project SDK (Java 11 or later is recommended).
+4. Enter the GroupId (com.example) and ArtifactId (student-record-management).
+5. Choose a project location and finish creating the project.
+6. IntelliJ will create the basic structure. You can then create the packages and classes according to the structure above.
+7. Copy the contents of the `pom.xml` file we provided earlier into your project's `pom.xml`.
+8. Create each Java file in its respective package and copy the code we've provided.
+
+After setting up the project structure, you can start implementing each class. Remember to refresh your Maven project after updating the `pom.xml` to ensure all dependencies are properly downloaded and configured.
+
+```pom.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>student-record-management</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- QR Code generation -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+    </dependencies>
+</project>
+```
+
+# 💎 Components
+This tree structure represents the Maven standard directory layout for a Java project. Here's a brief explanation of each component:
+
+1. `student-record-management/`: This is the root directory of your project.
+2. `pom.xml`: This file is at the root level and contains the project configuration and dependencies.
+3. `src/`: This directory contains all the source files.
+4. main/: This subdirectory of src/ contains the main application code and resources.
+5. java/: This contains all the Java source files.
+6. com/example/: This is the base package for all your Java classes.
+7. Main.java: The main class to run the application.
+8. model/: This package contains the data model classes.
+9. service/: This package contains the service classes that handle business logic.
+10. util/: This package contains utility classes.
+11. gui/: This package contains all the GUI-related classes.
+12. resources/: This directory is for non-Java resources like configuration files, images, etc. It's empty in this project but included for completeness.
+
+
+
+
+
+
 # 🏆 Contributing     
 
 ### Contributing     
