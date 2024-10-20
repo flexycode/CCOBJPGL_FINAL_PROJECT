@@ -113,9 +113,42 @@ o Name
 
 #### 💻 Code Project Structure using [Maven](https://www.geeksforgeeks.org/what-is-maven)
 
-Artificial Ledger Bank diagram tree using "package-by-features" or "package-by-components"  
+Artificial Ledger Student record management tree using "package-by-features" or "package-by-components"  
 ( Coming Soon this is just a reference only based on our Final Project 3 months ago, this is also an example of advance Object-Oriented Programming )
 
+
+##### Student record management
+```bash
+student-record-management/
+│
+├── pom.xml
+│
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/
+        │       └──your.package.structure (ArtificialLedgerSRM)/
+        │           ├── Main.java ( 🚀 Application ) 
+        │           ├── model/
+        │           │   ├── User.java
+        │           │   └── Student.java
+        │           ├── service/
+        │           │   ├── UserService.java
+        │           │   └── StudentService.java
+        │           ├── util/
+        │           │   └── QRCodeGenerator.java
+        │           └── gui/ ( 🛸 GUI )   
+        │               ├── LoginFrame.java
+        │               ├── AdminFrame.java
+        │               └── StudentFrame.java
+        └── resources/
+            └── (empty for now, but you can add resources like images or config files here)
+
+```
+
+
+
+Previous Project in Intermediate (Will Delete this after we finish the project)
 ```bash
 ArtificialLedger.java
 │
@@ -234,13 +267,39 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 ### Activity
 - ✨ Finalizing our Case Study: Student Record with User Management Authenticated by Generated QR Code
 - ✨ Will designate a task from all the group members
-
+- ✨ Create Architecture tree structure using Maven 
 
 ## [4.1.4] - 2024-09-22 
 ### Activity
 - ✨ Coming Soon
-- ✨ Coming
+- ✨ Coming Soon
 
 ## [4.1.4] - 2024-10-23 
 ### Activity
 - ✨ Team Case Study
+
+  
+<!-- Introduction Pannel button link, it will redirect to the top -->
+#### [Back to Table of Content](#-introduction)
+<!-- End point line insert Thanks for visiting enjoy your day, feel free to modify this  -->
+---
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com/?lines=Thanks+For+Visiting+Enjoy+Your+Day+~!;" alt="mystreak"/>
+</p>
+
+<!-- Genshin Impact -->
+<div align="center">
+<img src="https://media.giphy.com/media/qr4CNpxIL6wwNUYZsL/giphy.gif?cid=ecf05e47iqq0k4rx0kv1fb3w4hl8dja3ouiqzx4vz1665i6b&ep=v1_stickers_search&rid=giphy.gif&ct=s" width="300">
+</div>
+
+<!-- End point line insert Comeback again next time, feel free to modify this  -->
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com/?lines=💎💎Come+Back+Again+next+time💎💎" alt="mystreak"/>
+</p>
+
+</p>
+    
+<br>
+<!-- End point insert background effect line of sight color red -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
+
