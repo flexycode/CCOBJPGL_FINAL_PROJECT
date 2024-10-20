@@ -228,6 +228,8 @@ ArtificialLedger.java
 
 After setting up the project structure, you can start implementing each class. Remember to refresh your Maven project after updating the `pom.xml` to ensure all dependencies are properly downloaded and configured.
 
+
+##### pom.xml
 ```pom.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -266,19 +268,15 @@ This tree structure represents the Maven standard directory layout for a Java pr
 1. `student-record-management/`: This is the root directory of your project.
 2. `pom.xml`: This file is at the root level and contains the project configuration and dependencies.
 3. `src/`: This directory contains all the source files.
-4. main/: This subdirectory of src/ contains the main application code and resources.
-5. java/: This contains all the Java source files.
-6. com/example/: This is the base package for all your Java classes.
-7. Main.java: The main class to run the application.
-8. model/: This package contains the data model classes.
-9. service/: This package contains the service classes that handle business logic.
-10. util/: This package contains utility classes.
-11. gui/: This package contains all the GUI-related classes.
-12. resources/: This directory is for non-Java resources like configuration files, images, etc. It's empty in this project but included for completeness.
-
-
-
-
+4. `main/`: This subdirectory of src/ contains the main application code and resources.
+5. `java/`: This contains all the Java source files.
+6. `com/example/`: This is the base package for all your Java classes.
+7. `Main.java`: The main class to run the application.
+8. `model/`: This package contains the data model classes.
+9. `service/`: This package contains the service classes that handle business logic.
+10. `util/`: This package contains utility classes.
+11. `gui/`: This package contains all the GUI-related classes.
+12. `resources/`: This directory is for non-Java resources like configuration files, images, etc. It's empty in this project but included for completeness.
 
 
 # 🏆 Contributing     
