@@ -1,4 +1,4 @@
-# CCOBJPGL_FINAL_PROJECT TEAM-3
+# CCOBJPGL_FINAL_PROJECT : CASE STUDY
 
 ### Group Name: [Artificial Ledger Technology - T2](https://github.com/Artificial-Ledger-Technology)  🇵🇭
 ### Subject & Section: 🧚‍♂️ [CCOBJPGL COM24P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️
@@ -111,15 +111,17 @@ o Name
 ##### 🚀 7. Student Records will be inputted and manage by the Administrator Account
 
 
+# 🧊 ArtificialLedgerSRM - Complete Project Overview
+
+###   Project Structure
+
 #### 💻 Code Project Structure using [Maven](https://www.geeksforgeeks.org/what-is-maven)
 
 Artificial Ledger Student record management tree using "package-by-features" or "package-by-components"  
-( Coming Soon this is just a reference only based on our Final Project 3 months ago, this is also an example of advance Object-Oriented Programming )
-
 
 ##### Student record management
 ```bash
-student-record-management/
+ArtificialLedgerSRM/
 │
 ├── pom.xml
 │
