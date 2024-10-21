@@ -110,6 +110,12 @@ o Name
 
 ##### 🚀 7. Student Records will be inputted and manage by the Administrator Account
 
+##### 🚀 8. Student Record existing DBS
+
+```DBS
+o StudentNo: 2024117769
+```
+
 
 # 🧊 ArtificialLedgerSRM - Complete Project Overview
 
