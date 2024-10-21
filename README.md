@@ -357,13 +357,15 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 
 ## [4.1.4] - 2024-09-22 
 ### Activity
-- ✨ Coming Soon
+- ✨ Coming 
 - ✨ Coming Soon
 
 ## [4.1.4] - 2024-10-23 
 ### Activity
 - ✨ Team Case Study
 
+- 
+🧊 Case Study
   
 <!-- Introduction Pannel button link, it will redirect to the top -->
 #### [Back to Table of Content](#-introduction)
