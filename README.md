@@ -337,7 +337,7 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 
 ## Changelogs 
 
-## [4.1.4] - 2024-10-19      
+## [10.1.5] - 2024-10-19      
 ### Added
 - 💻 Final Project requirements for our project
 - ✨ Bootcamp Webinar ni Prof Ponio sa GDSC
@@ -345,7 +345,7 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Coming Soon 💻 🚀
 - ✨ Coming Soon 🧠 🔑
 
-## [4.1.4] - 2024-09-20
+## [10.1.1] - 2024-09-20
 ### Activity
 - ✨ Will designate a task from all the group members
 
@@ -365,7 +365,11 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Team Case Study
 - ✨ Team Case Study
 
-- 
+## [4.1.4] - 2024-10-23 
+### Activity
+- ✨ Team Case Study
+- ✨ Team Case Study
+
 🧊 Case Study
   
 <!-- Introduction Pannel button link, it will redirect to the top -->
