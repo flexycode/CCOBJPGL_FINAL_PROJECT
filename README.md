@@ -367,7 +367,7 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 
 ## [10.1.2] - 2024-10-24 
 ### Activity
-- ✨ Team Case Study
+- ✨ Coming Soon
 - ✨ Team Case Study
 
 🧊 Case Study
