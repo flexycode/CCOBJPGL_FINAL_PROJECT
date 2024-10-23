@@ -349,23 +349,23 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 ### Activity
 - ✨ Will designate a task from all the group members
 
-## [4.1.4] - 2024-09-21 
+## [10.1.3] - 2024-09-21 
 ### Activity
 - ✨ Finalizing our Case Study: Student Record with User Management Authenticated by Generated QR Code
 - ✨ Will designate a task from all the group members
 - ✨ Create Architecture tree structure using Maven 
 
-## [4.1.4] - 2024-09-22 
-### Activity
-- ✨ Coming Soon
+## [10.1.2] - 2024-09-22 
+### HotFix
+- ✨ Fix a unresponsive GUI in AdminFrame 
 - ✨ Coming Soon
 
-## [4.1.4] - 2024-10-23 
+## [10.1.2] - 2024-10-23 
 ### Activity
 - ✨ Team Case Study
 - ✨ Team Case Study
 
-## [4.1.4] - 2024-10-23 
+## [10.1.2] - 2024-10-24 
 ### Activity
 - ✨ Team Case Study
 - ✨ Team Case Study
