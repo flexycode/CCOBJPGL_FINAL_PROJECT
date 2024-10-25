@@ -375,6 +375,11 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Agile Scrum
 - ✨ Team Case Study
 
+## [10.1.2] - 2024-10-26 
+### Activity
+- ✨ Coming Soon
+- ✨ Coming Soon
+
 🧊 Case Study Project
 
 <!-- This comment is intended for commiting message in pull-request 
