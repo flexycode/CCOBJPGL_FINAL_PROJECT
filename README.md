@@ -362,8 +362,8 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 
 ## [10.1.2] - 2024-10-23 
 ### Activity
-- ✨ Team Case Study
-- ✨ Team Case Study
+- ✨ Debug StudentService java class
+- ✨ Debug UserService java class
 
 ## [10.1.2] - 2024-10-24 
 ### Activity
