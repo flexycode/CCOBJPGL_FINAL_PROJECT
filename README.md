@@ -125,7 +125,7 @@ o StudentNo: 2024117769
 
 Artificial Ledger Student record management tree using "package-by-features" or "package-by-components"  
 
-##### Student record management
+##### Student record management v1
 ```bash
 ArtificialLedgerSRM/
 │
@@ -155,57 +155,62 @@ ArtificialLedgerSRM/
 ```
 
 
+This will be the Updated Intermediate (Will Delete this after we finish the project)
 
-Previous Project in Intermediate (Will Delete this after we finish the project)
+##### Student record management v2 (Final Version)
 ```bash
-ArtificialLedger.java
-│
-├── src 
-│   └── main
-│       ├── java  
-│       │   └── your.package.structure (ArtificialLedger) 
-│       │       ├── components     
-│       │       │      ├── EventHomeOverlay (💡Interfaces)                                           
-│       │       │      ├── HeaderButton (components for Home)  
-│       │       │      ├── BankAccount ( integration for Account, AccountManager, resources/account-details)   
-│       │       │ 
-│       │       ├── forms
-│       │       │      ├── Account (🛸 GUI )       
-│       │       │      ├──      
-│       │       │      ├── Home ( Homepage )                         
-│       │       │      ├── HomeOverlay (Home: )         
-│       │       │      ├──   
-│       │       │      ├── Login (📓Side Panel in Home ) 
-│       │       │      ├── ModelLocation ( Extra: Background Video)
-│       │       │      ├── RegistrationForm ( 🛸 GUI )                        
-│       │       │
-│       │       └── main                   
-│       │       │      ├── Main ( 🚀 Application )                       
-│       │       │  
-│       │       │
-│       │       ├── utils  
-│       │              ├── RippleEffect (Extra:)        
-│       │              ├── AccountManager (integration for Account, BankAccount, resources/account-details)    
-│       │
-│       │   
-│       └── resources
-│           └── account-details   
-│           │     ├── account-details.txt              
-│           │     └── account-details.txt      
-│           │
-│           └── images
-│           │     ├── background-image-file.png
-│           │     └── your-image-file.png
-│           │          
-│           └── voice-effect          
-│                 └── voice-effect-file.wav                                          
-│                    
-├── pom.xml (or build.gradle, etc.)        
-│ 
-└── video
-       ├── video 1.mp4
-       ├── video 2.mp4
-       └── video 3.mp4         
+student-management-system/
+├── pom.xml
+├── README.md
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── studentmanagement/
+│   │   │           ├── StudentManagementApp.java
+│   │   │           ├── model/
+│   │   │           │   ├── Student.java
+│   │   │           │   └── User.java
+│   │   │           ├── service/
+│   │   │           │   ├── AuthenticationService.java
+│   │   │           │   ├── DataPersistenceService.java
+│   │   │           │   └── QRCodeService.java
+│   │   │           └── gui/
+│   │   │               ├── LoginFrame.java
+│   │   │               ├── AdminFrame.java
+│   │   │               ├── StudentFrame.java
+│   │   │               └── QRLoginDialog.java
+│   │   └── resources/
+│   │       ├── config/
+│   │       │   └── application.properties
+│   │       ├── images/
+│   │       │   ├── logo.png
+│   │       │   └── background.jpg
+│   │       └── data/
+│   │           └── students.json
+│   └── test/
+│       ├── java/
+│       │   └── com/
+│       │       └── studentmanagement/
+│       │           ├── model/
+│       │           │   ├── StudentTest.java
+│       │           │   └── UserTest.java
+│       │           └── service/
+│       │               ├── AuthenticationServiceTest.java
+│       │               ├── DataPersistenceServiceTest.java
+│       │               └── QRCodeServiceTest.java
+│       └── resources/
+│           └── test-data/
+│               └── test-students.json
+└── docs/
+    ├── api/
+    │   └── javadoc/
+    ├── design/
+    │   ├── class-diagram.png
+    │   └── sequence-diagrams/
+    └── user-manual/
+        ├── admin-guide.md
+        └── student-guide.md   
 ...  
 ```
 
@@ -377,7 +382,7 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 
 ## [10.1.2] - 2024-10-26 
 ### Activity
-- ✨ Coming Soon
+- ✨ Update the Project Structure
 - ✨ Coming Soon
 
 🧊 Case Study Project
