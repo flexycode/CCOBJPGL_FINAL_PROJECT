@@ -370,7 +370,17 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Agile Scrum
 - ✨ Team Case Study
 
-🧊 Case Study
+## [10.1.2] - 2024-10-25 
+### Activity
+- ✨ Agile Scrum
+- ✨ Team Case Study
+
+🧊 Case Study Project
+
+<!-- This comment is intended for commiting message in pull-request 
+Always use this "🧊 Case Study Project" for commiting message for "Pull-request"
+<!-- End point line for this comment  -->
+
   
 <!-- Introduction Pannel button link, it will redirect to the top -->
 #### [Back to Table of Content](#-introduction)
