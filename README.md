@@ -363,8 +363,8 @@ If you would like to contribute to the Banking System, please follow these steps
 ### 👋 Contributors
 ### Special thanks to all my groupmates: 
  * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Chief Technology Officer | Blockchain Developer | Bioinformatics Scientist    
- * ####  🧭 [Free Agent](https://github.com/flexycode) - Software Engineer | Full Stack Developer | Front-End Developer
- * ####  💥 [Free Agent](https://github.com/flexycode) - Software Engineer | Full Stack Developer | Back-End Developer
+ * ####  🧭 [Bherliane Mallari](https://github.com/mallaribs01) - Software Engineer | Full Stack Developer | Front-End Developer
+ * ####  💥 [Hannah Padilla](https://github.com/hnnhpdll) - Software Engineer | Full Stack Developer | Back-End Developer
  * ####  💕 [Free Agent](https://github.com/flexycode) - Software Engineer | Full Stack Developer | QA Tester
  * ####  🎲 [Free Agent](https://github.com/flexycode) - Software Engineer | Full Stack Developer | Back-End Developer
 
