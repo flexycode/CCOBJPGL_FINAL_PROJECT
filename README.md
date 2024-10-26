@@ -242,7 +242,7 @@ student-management-system/
 After setting up the project structure, you can start implementing each class. Remember to refresh your Maven project after updating the `pom.xml` to ensure all dependencies are properly downloaded and configured.
 
 
-##### pom.xml
+##### pom.xml version 1.0
 ```pom.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -274,6 +274,55 @@ After setting up the project structure, you can start implementing each class. R
     </dependencies>
 </project>
 ```
+##### pom.xml final version
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.studentmanagement</groupId>
+    <artifactId>student-management-system</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- QR Code generation -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+            <version>3.5.1</version>
+        </dependency>
+        
+        <!-- JSON handling -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+        
+        <!-- Testing -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
+```
+
 
 # 💎 Components
 This tree structure represents the Maven standard directory layout for a Java project. Here's a brief explanation of each component:
@@ -383,7 +432,7 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 ## [10.1.2] - 2024-10-26 
 ### Activity
 - ✨ Update the Project Structure
-- ✨ Coming Soon
+- ✨ Update pom.xml to final version
 
 🧊 Case Study Project
 
