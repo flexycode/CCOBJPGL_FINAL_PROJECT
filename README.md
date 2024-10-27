@@ -28,30 +28,6 @@ A case study for student record with User Management Authenticated by Generated 
 3. IDE IntelliJ
 4. Maven
 
-## Possible Title Position in your Career
-
-#### Delete this it's just a mema lang
-
-* Software Engineer
-* Backend Developer
-* Frontend Developer
-* Protocol Engineer
-* AI / ML Engineer
-* Data Scientist
-* Game Developer
-* Mobile Developer
-* Systems Engineer
-* Hardware Engineer
-* Product Designer
-* Visual Designer
-* Biz Dev
-* Community Manager
-* Content Creator
-* Finance & Ops
-* Lawyer
-* Marketer
-* Product Manager
-
 ## [Final Project](#final)   
  
 ### 🏦 Artificial Ledger Technology (User Management Authenticated by Generated QR Code) 🔒  
@@ -127,30 +103,39 @@ Artificial Ledger Student record management tree using "package-by-features" or 
 
 ##### Student record management v1
 ```bash
-ArtificialLedgerSRM/
-│
+student-record-system/
 ├── pom.xml
-│
-└── src/
-    └── main/
-        ├── java/
-        │   └── com/
-        │       └──your.package.structure (ArtificialLedgerSRM)/
-        │           ├── Main.java ( 🚀 Application ) 
-        │           ├── model/
-        │           │   ├── User.java
-        │           │   └── Student.java
-        │           ├── service/
-        │           │   ├── UserService.java
-        │           │   └── StudentService.java
-        │           ├── util/
-        │           │   └── QRCodeGenerator.java
-        │           └── gui/ ( 🛸 GUI )   
-        │               ├── LoginFrame.java
-        │               ├── AdminFrame.java
-        │               └── StudentFrame.java
-        └── resources/
-            └── (empty for now, but you can add resources like images or config files here)
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── studentrecord/
+│   │   │           ├── App.java
+│   │   │           ├── auth/
+│   │   │           │   ├── AuthenticationService.java
+│   │   │           │   ├── PinCodeGenerator.java
+│   │   │           │   └── QRCodeGenerator.java
+│   │   │           ├── model/
+│   │   │           │   ├── Student.java
+│   │   │           │   └── User.java
+│   │   │           ├── service/
+│   │   │           │   ├── StudentService.java
+│   │   │           │   └── UserService.java
+│   │   │           └── ui/
+│   │   │               ├── AdminDashboard.java
+│   │   │               ├── LoginFrame.java
+│   │   │               └── StudentDashboard.java
+│   │   └── resources/
+│   │       ├── images/
+│   │       │   ├── background.jpg
+│   │       │   └── logo.png
+│   │       └── application.properties
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── studentrecord/
+│                   └── tests/
+└── README.md
 
 ```
 
@@ -242,7 +227,8 @@ student-management-system/
 After setting up the project structure, you can start implementing each class. Remember to refresh your Maven project after updating the `pom.xml` to ensure all dependencies are properly downloaded and configured.
 
 
-##### pom.xml version 1.0
+##### pom.xml 
+
 ```pom.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -250,40 +236,8 @@ After setting up the project structure, you can start implementing each class. R
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
-    <artifactId>student-record-management</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
-
-    <dependencies>
-        <!-- QR Code generation -->
-        <dependency>
-            <groupId>com.google.zxing</groupId>
-            <artifactId>core</artifactId>
-            <version>3.4.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.zxing</groupId>
-            <artifactId>javase</artifactId>
-            <version>3.4.1</version>
-        </dependency>
-    </dependencies>
-</project>
-```
-##### pom.xml final version
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.studentmanagement</groupId>
-    <artifactId>student-management-system</artifactId>
+    <groupId>com.studentrecord</groupId>
+    <artifactId>student-record-system</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -307,9 +261,9 @@ After setting up the project structure, you can start implementing each class. R
         
         <!-- JSON handling -->
         <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.10.1</version>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.2</version>
         </dependency>
         
         <!-- Testing -->
@@ -320,6 +274,36 @@ After setting up the project structure, you can start implementing each class. R
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.4.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>com.studentrecord.App</mainClass>
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
 ```
 
@@ -430,6 +414,11 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Team Case Study
 
 ## [10.1.2] - 2024-10-26 
+### Activity
+- ✨ Update the Project Structure
+- ✨ Update pom.xml to v1
+
+## [10.1.2] - 2024-10-27 
 ### Activity
 - ✨ Update the Project Structure
 - ✨ Update pom.xml to final version
