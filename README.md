@@ -346,15 +346,15 @@ If you would like to contribute to the Banking System, please follow these steps
 1. Fork the repository.
 2. Create a new branch.
 3. Make your changes and commit them.
-4. Push to your fork and submit a pull request.
+4. Push to your fork and submit a pull request. 💕💕💕💕
 
 ### 👋 Contributors
 ### Special thanks to all my groupmates: 
- * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Chief Technology Officer | Blockchain Developer | Bioinformatics Scientist    
+ * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Machine Learning Engineer | Blockchain Developer | Bioinformatics Scientist    
  * ####  🧭 [Bherliane Mallari](https://github.com/mallaribs01) - Software Engineer | Full Stack Developer | Front-End Developer
- * ####  💥 [Hannah Padilla](https://github.com/hnnhpdll) - Software Engineer | Full Stack Developer | Back-End Developer
- * ####  💕 [Brian Devera](https://github.com/scarfer14) - Network Security Engineer | Digital Forensic Analyst | Robotics Engineer
- * ####  🎲 [Free Agent](https://github.com/flexycode) - Software Engineer | Full Stack Developer | Back-End Developer
+ * ####  💥 [Hannah Padilla](https://github.com/hnnhpdll) - Software Engineer | Full Stack Developer | Back-End Engineer
+ * ####  🎲 [Brian De Vera](https://github.com/scarfer14) - Network Security Engineer | Digital Forensic Analyst | Robotics Engineer
+ * ####  🤖 [Mystic Love](https://github.com/flexyledger) - Necromancer | Fortune Teller | Data Engineer
 
 ### 🛸 Reporting Issues
 
