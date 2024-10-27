@@ -1,6 +1,6 @@
 # CCOBJPGL_FINAL_PROJECT : CASE STUDY
 
-### Group Name: [Artificial Ledger Technology - T2](https://github.com/Artificial-Ledger-Technology)  🇵🇭
+### Group Name: [Artificial Ledger Technology - T1](https://github.com/Artificial-Ledger-Technology)  🇵🇭
 ### Subject & Section: 🧚‍♂️ [CCOBJPGL COM24P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️
 ### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)                    
 ### No. of Units: [3 Units](https://www.youtube.com/watch?v=d_Z-neEBuWM) 
@@ -353,7 +353,7 @@ If you would like to contribute to the Banking System, please follow these steps
  * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Chief Technology Officer | Blockchain Developer | Bioinformatics Scientist    
  * ####  🧭 [Bherliane Mallari](https://github.com/mallaribs01) - Software Engineer | Full Stack Developer | Front-End Developer
  * ####  💥 [Hannah Padilla](https://github.com/hnnhpdll) - Software Engineer | Full Stack Developer | Back-End Developer
- * ####  💕 [Free Agent](https://github.com/flexycode) - Software Engineer | Full Stack Developer | QA Tester
+ * ####  💕 [Brian Devera](https://github.com/scarfer14) - Network Security Engineer | Digital Forensic Analyst | Robotics Engineer
  * ####  🎲 [Free Agent](https://github.com/flexycode) - Software Engineer | Full Stack Developer | Back-End Developer
 
 ### 🛸 Reporting Issues
