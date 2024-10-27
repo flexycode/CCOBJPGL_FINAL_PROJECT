@@ -1,4 +1,4 @@
-# CCOBJPGL_FINAL_PROJECT : CASE STUDY
+# CCOBJPGL_FINAL_PROJECT : CASE STUDY STUDENT RECORD MANAGEMENT
 
 ### Group Name: [Artificial Ledger Technology - T1](https://github.com/Artificial-Ledger-Technology)  🇵🇭
 ### Subject & Section: 🧚‍♂️ [CCOBJPGL COM24P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️
@@ -30,9 +30,9 @@ A case study for student record with User Management Authenticated by Generated 
 
 ## [Final Project](#final)   
  
-### 🏦 Artificial Ledger Technology (User Management Authenticated by Generated QR Code) 🔒  
+### 🏦 Case Study: Student Record with User Management Authenticated by Generated QR Code 🔒  
 
-#### Machine Problem: 
+#### Problem Statement : 
 
 🚀 Create an Object-Oriented `Student Record with User Management Authenticated by Generated QR Code` that allows an `administrator` to manage student records (add, view, and update student details.)
 
@@ -74,7 +74,7 @@ o Degree
 
 o Name
 ```
-##### 3. Encapsulation:
+##### 🚀 3. Encapsulation:
 
 * Ensure all fields are private and provide public getter and setter methods for accessing and modifying them.
 
@@ -431,6 +431,7 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 ### Activity
 - ✨ Update the Project Structure
 - ✨ Upload new project file for student record management
+- ✨ Fix README.md
 
 🧊 Case Study Project
 
