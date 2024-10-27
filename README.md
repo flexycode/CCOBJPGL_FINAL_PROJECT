@@ -122,9 +122,13 @@ student-record-system/
 │   │   │           │   ├── StudentService.java
 │   │   │           │   └── UserService.java
 │   │   │           └── ui/
-│   │   │               ├── AdminDashboard.java
-│   │   │               ├── LoginFrame.java
-│   │   │               └── StudentDashboard.java
+│   │   │           │   ├── AdminDashboard.java
+│   │   │           │   ├── LoginFrame.java
+│   │   │           │   └── StudentDashboard.java
+│   │   │           └── util/
+│   │   │               ├── Constants.java
+│   │   │                └── ResourceManager.java
+│   │   │
 │   │   └── resources/
 │   │       ├── images/
 │   │       │   ├── background.jpg
@@ -422,6 +426,11 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 ### Activity
 - ✨ Update the Project Structure
 - ✨ Update pom.xml to final version
+
+## [10.1.2] - 2024-10-28 
+### Activity
+- ✨ Update the Project Structure
+- ✨ Upload new project file for student record management
 
 🧊 Case Study Project
 
