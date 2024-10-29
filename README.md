@@ -1,6 +1,6 @@
 # CCOBJPGL_FINAL_PROJECT : CASE STUDY STUDENT RECORD MANAGEMENT
 
-### Group Name: [Artificial Ledger Technology - T1](https://github.com/Artificial-Ledger-Technology)  🇵🇭
+### Group Name: [Artificial Ledger Technology - T3](https://github.com/Artificial-Ledger-Technology)  🇵🇭
 ### Subject & Section: 🧚‍♂️ [CCOBJPGL COM24P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️
 ### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)                    
 ### No. of Units: [3 Units](https://www.youtube.com/watch?v=d_Z-neEBuWM) 
