@@ -433,6 +433,13 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Upload new project file for student record management
 - ✨ Fix README.md
 
+## [10.1.2] - 2024-10-29
+### Activity
+- ✨ Debug util and services in the Project Structure
+- ✨ Upload asset folder
+- ✨ Update README.md
+
+
 🧊 Case Study Project
 
 <!-- This comment is intended for commiting message in pull-request 
