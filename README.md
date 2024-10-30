@@ -101,7 +101,7 @@ o StudentNo: 2024117769
 
 Artificial Ledger Student record management tree using "package-by-features" or "package-by-components"  
 
-##### Student record management v1
+##### Student record management v2 (Final Version)
 ```bash
 student-record-system/
 ├── pom.xml
@@ -138,15 +138,17 @@ student-record-system/
 │       └── java/
 │           └── com/
 │               └── studentrecord/
-│                   └── tests/
+│                  └── tests/
+│
+├── assets
+├── LICENSE                   
 └── README.md
-
 ```
 
 
 This will be the Updated Intermediate (Will Delete this after we finish the project)
 
-##### Student record management v2 (Final Version)
+##### Student record management v1 (Previous Final Version)
 ```bash
 student-management-system/
 ├── pom.xml
@@ -445,6 +447,7 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Debug auth and 3 class in the Project Structure
 - ✨ Finalize the SDLC
 - ✨ Update README.md
+- ✨ Update the Project Structure
 
 🧊 Case Study Project
 
