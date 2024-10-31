@@ -93,7 +93,7 @@ o StudentNo: 2024117769
 ```
 
 
-# 🧊 ArtificialLedgerSRM - Complete Project Overview
+# 🧊 Student record system - Complete Project Overview
 
 ###   Project Structure
 
@@ -454,6 +454,12 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Refactor auth and 3 class 
 - ✨ Update README.md
 
+## [10.1.3] - 2024-11-01
+### Activity
+- ✨ Refactor all the important features class
+- ✨ Fix Pin Code Authentication
+- ✨ Add Pin Code Verification
+- ✨ Update README.md
 
 🧊 Case Study Project
 
