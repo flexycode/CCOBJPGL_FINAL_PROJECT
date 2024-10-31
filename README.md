@@ -449,6 +449,12 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Update README.md
 - ✨ Update the Project Structure
 
+## [10.1.3] - 2024-10-31
+### Activity
+- ✨ Refactor auth and 3 class 
+- ✨ Update README.md
+
+
 🧊 Case Study Project
 
 <!-- This comment is intended for commiting message in pull-request 
