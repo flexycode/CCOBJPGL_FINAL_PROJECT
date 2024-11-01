@@ -148,7 +148,7 @@ student-record-system/
 
 This will be the Updated Intermediate (Will Delete this after we finish the project)
 
-##### Student record management v1 (Previous Final Version)
+##### Student record management v1 (Previous Version)
 ```bash
 student-management-system/
 ├── pom.xml
@@ -455,11 +455,18 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Revise pom.xml
 - ✨ Update README.md
 
-## [10.1.3] - 2024-11-01
+## [11.1.4] - 2024-11-01
 ### Activity
 - ✨ Refactor all the important features class
 - ✨ Fix Pin Code Authentication
 - ✨ Add Pin Code Verification
+- ✨ Update README.md
+
+## [11.1.3] - 2024-11-02
+### Activity
+- ✨ Record video for the actual 
+- ✨ Finalization for SDLC
+- ✨ Hide entire codebase in the GitHub, I will soon upload after the submission of this case study
 - ✨ Update README.md
 
 🧊 Case Study Project
