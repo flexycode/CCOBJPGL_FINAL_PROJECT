@@ -264,14 +264,14 @@ After setting up the project structure, you can start implementing each class. R
             <artifactId>javase</artifactId>
             <version>3.5.1</version>
         </dependency>
-        
+
         <!-- JSON handling -->
         <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.15.2</version>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.9</version> <!-- Check for the latest version -->
         </dependency>
-        
+
         <!-- Testing -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
