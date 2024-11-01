@@ -92,6 +92,11 @@ o Name
 o StudentNo: 2024117769
 ```
 
+# 🧊 Screenshots
+
+```
+Coming Soon
+```
 
 # 🧊 Student record system - Complete Project Overview
 
