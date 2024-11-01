@@ -451,7 +451,8 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 
 ## [10.1.3] - 2024-10-31
 ### Activity
-- ✨ Refactor auth and 3 class 
+- ✨ Refactor auth and 3 class
+- ✨ Revise pom.xml
 - ✨ Update README.md
 
 ## [10.1.3] - 2024-11-01
