@@ -145,13 +145,17 @@ student-record-system/
 │               └── studentrecord/
 │                  └── tests/
 │
+├── pom.xml
+├── student-record-system.iml
+├── students.json
+├── users.json
 ├── assets
 ├── LICENSE                   
 └── README.md
 ```
 
 
-This will be the Updated Intermediate (Will Delete this after we finish the project)
+This (Will be delete this after we finish the project)
 
 ##### Student record management v1 (Previous Version)
 ```bash
@@ -327,13 +331,14 @@ This tree structure represents the Maven standard directory layout for a Java pr
 3. `src/`: This directory contains all the source files.
 4. `main/`: This subdirectory of src/ contains the main application code and resources.
 5. `java/`: This contains all the Java source files.
-6. `com/example/`: This is the base package for all your Java classes.
-7. `Main.java`: The main class to run the application.
+6. `com/studentrecord/`: This is the base package for all your Java classes.
+7. `App.java`: The main class to run the application.
 8. `model/`: This package contains the data model classes.
 9. `service/`: This package contains the service classes that handle business logic.
-10. `util/`: This package contains utility classes.
-11. `gui/`: This package contains all the GUI-related classes.
-12. `resources/`: This directory is for non-Java resources like configuration files, images, etc. It's empty in this project but included for completeness.
+10. `util/`: This package contains utility classes. (deleted for some reason like there's no use case)
+11. `ui/`: This package contains all the GUI-related classes.
+12. `auth/`: This package contains all the Authentication, QRCode, Pin Code - related classes.
+13. `resources/`: This directory is for non-Java resources like configuration files, images, etc.
 
 
 # 🏆 Contributing     
@@ -472,6 +477,7 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Record video for the actual 
 - ✨ Finalization for SDLC
 - ✨ Hide entire codebase in the GitHub, I will soon upload after the submission of this case study
+- ✨ Add students.json and users.json file in the Project structure tree
 - ✨ Update README.md
 
 🧊 Case Study Project
