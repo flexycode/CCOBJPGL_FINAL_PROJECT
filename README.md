@@ -133,12 +133,12 @@ student-record-system/
 │   │   │           │   ├── StudentService.java
 │   │   │           │   └── UserService.java
 │   │   │           └── ui/
-│   │   │           │   ├── AdminDashboard.java
-│   │   │           │   ├── LoginFrame.java
-│   │   │           │   └── StudentDashboard.java
-│   │   │           └── util/
-│   │   │               ├── Constants.java
-│   │   │                └── ResourceManager.java
+│   │   │               ├── AdminDashboard.java
+│   │   │               ├── LoginFrame.java
+│   │   │               └── StudentDashboard.java
+│   │   │          
+│   │   │              
+│   │   │                
 │   │   │
 │   │   └── resources/
 │   │       ├── images/
@@ -161,7 +161,7 @@ student-record-system/
 ```
 
 
-This (Will be delete this after we finish the project)
+Previous version (This will be delete after we finish the project)
 
 ##### Student record management v1 (Previous Version)
 ```bash
@@ -372,7 +372,7 @@ If you would like to contribute to the Banking System, please follow these steps
  * ####  🧭 [Bherliane Mallari](https://github.com/mallaribs01) - Software Engineer | Full Stack Developer | Front-End Developer
  * ####  💥 [Hannah Padilla](https://github.com/hnnhpdll) - Software Engineer | Full Stack Developer | Back-End Engineer
  * ####  🎲 [Brian De Vera](https://github.com/scarfer14) - Network Security Engineer | Digital Forensic Analyst | Robotics Engineer
- * ####  🤖 [Mystic Love](https://github.com/flexyledger) - Necromancer | Fortune Teller | Data Engineer
+ * ####  🤖 [Mystic Love](https://github.com/flexyledger) - Necromancer | Fortune Teller | Rakista
 
 ### 🛸 Reporting Issues
 
@@ -456,7 +456,6 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - ✨ Debug util and services in the Project Structure
 - ✨ Upload asset folder
 - ✨ Update README.md
-
 
 ## [10.1.3] - 2024-10-30
 ### Activity
