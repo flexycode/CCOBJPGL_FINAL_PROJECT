@@ -104,6 +104,93 @@ Coming Soon
 Coming Soon
 ```
 
+# 👷 System Architecture
+
+### 📜 Breakdown of the Architecture components:
+
+```
+1. Presentation Layer
+This layer is responsible for the user interface and user interaction. It includes:
+
+- LoginFrame: The main entry point for users to log in. It handles user input for credentials and PIN verification.
+- AdminDashboard: The user interface for administrators, providing access to administrative functionalities.
+- StudentDashboard: The user interface for students, providing access to student-specific functionalities.
+
+2. Business Logic Layer
+This layer contains the core functionality of the application, including business rules and logic. It includes:
+
+- AuthenticationService: Responsible for authenticating users based on their credentials. It checks if the username and password are valid.
+- User Service: Manages user-related operations, such as retrieving user information and checking user roles (admin or student).
+
+3. Data Access Layer
+This layer is responsible for interacting with the data storage. It includes:
+
+- User Repository: This could be a class or interface that handles data operations related to users, such as fetching user details from a database or file system. (Note: This part is implied in my code but not explicitly shown.)
+
+4. Data Layer
+This layer is where the actual data is stored. It could be:
+
+- Database: A relational database (like MySQL, PostgreSQL) or a NoSQL database (like MongoDB) where user credentials and roles are stored.
+- File System: If you are using a simple file-based approach, user data could be stored in text files or JSON files. ( This is what I used for this project)
+
+5. Security Layer
+This layer ensures that the application is secure. It includes:
+
+- Password Hashing: Storing passwords securely (not shown in my code but recommended).
+- PIN Code Generation and Verification: The logic for generating and verifying the PIN code during the login process.
+
+6. Utilities Layer
+This layer can include helper classes or utilities that provide common functionalities, such as:
+
+- Image Loading: Handling the loading of images for the UI.
+- Random Number Generation: For generating the PIN code.
+```
+
+###   Diagram Representation
+
+```
++---------------------+
+|  Presentation Layer |
+|---------------------|
+|  LoginFrame         |
+|  AdminDashboard     |
+|  StudentDashboard   |
++---------------------+
+          |
++------------------------+
+|  Business Logic Layer  |
+|------------------------|
+|  AuthenticationService |
+|  UserService           |
++------------------------+
+          |
++---------------------+
+|  Data Access Layer  |
+|---------------------|
+|  User Repository    |
++---------------------+
+          |
++-----------------------+
+|      Data Layer       |
+|-----------------------|
+|  Database/File System |
++-----------------------+
+          |
++---------------------+
+|    Security Layer   |
+|---------------------|
+|  Password Hashing   |
+|  PIN Code Logic     |
++---------------------+
+          |
++---------------------+
+|    Utilities Layer  |
+|---------------------|
+|  Image Loading      |
+|  Random Number Gen. |
++---------------------+
+```
+
 # 🧊 Student record system - Complete Project Overview
 
 ###   Project Structure
