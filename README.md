@@ -131,7 +131,7 @@ This layer is responsible for interacting with the data storage. It includes:
 This layer is where the actual data is stored. It could be:
 
 - Database: A relational database (like MySQL, PostgreSQL) or a NoSQL database (like MongoDB) where user credentials and roles are stored.
-- File System: If you are using a simple file-based approach, user data could be stored in text files or JSON files. ( This is what I used for this project)
+- File System: If you are using a simple file-based approach, user data could be stored in text files or JSON files. ( This is what I used for this project, which is JSON files.)
 
 5. Security Layer
 This layer ensures that the application is secure. It includes:
