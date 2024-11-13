@@ -107,6 +107,14 @@ o StudentNo: 2024117769
 
 <img src="assets/gui-3.png">
 
+<img src="assets/gui-4.png">
+
+<img src="assets/gui-6.png">
+
+### Student Record View GUI
+
+<img src="assets/gui-7.png">
+
 # 🧪 Unit Test
 
 ### Test Case Coverage
