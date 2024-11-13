@@ -101,9 +101,9 @@ o StudentNo: 2024117769
 
 # 🧪 Unit Test
 
-```
-Coming Soon
-```
+### Test Case Coverage
+<img src="assets/test-case.png">
+
 
 # 👷 System Architecture
 
