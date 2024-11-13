@@ -101,11 +101,16 @@ o StudentNo: 2024117769
 
 <img src="assets/gui-1.png">
 
+<img src="assets/gui-2.png">
+
+### Admin Management GUI
+
+<img src="assets/gui-3.png">
+
 # 🧪 Unit Test
 
 ### Test Case Coverage
 <img src="assets/test-case.png">
-
 
 # 👷 System Architecture
 
