@@ -97,7 +97,9 @@ o StudentNo: 2024117769
 ### Home Page 
 <img src="assets/gui-0.png">
 
+### Login Panel with Generated Pin Code
 
+<img src="assets/gui-1.png">
 
 # 🧪 Unit Test
 
