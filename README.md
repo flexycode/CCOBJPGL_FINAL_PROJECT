@@ -94,9 +94,10 @@ o StudentNo: 2024117769
 
 # 🧮 Screenshots 
 
-```
-Coming Soon
-```
+### Home Page 
+<img src="assets/gui-0.png">
+
+
 
 # 🧪 Unit Test
 
